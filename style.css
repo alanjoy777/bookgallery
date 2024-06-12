@@ -1,0 +1,182 @@
+*{
+    /* font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal; */
+margin: 0px;
+padding: opx;
+  
+}
+
+header{
+    background-color: cadetblue;
+    height: 60px;
+}
+header h1{
+    color:honeydew;
+    text-align: center;
+    text-shadow: 2px 4px 6px black;
+    
+
+}
+.row{
+    
+    background-color: rgb(241, 231, 217);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* .col{
+    background-color: honeydew;
+    padding: 10px;
+    height: 399px;
+    width: 272px;
+    border: 5px  solid rgb(25, 8, 41);
+    border-radius: 20px;
+    margin-top: 50px;
+
+} */
+/* img{
+    height: 200px;
+    width: 150px;
+    border: 2px ridge cyan;
+    margin-left: 58px;
+    border-radius: 10%; */
+    
+    
+
+}
+h2{
+    color:whitesmoke;
+    text-shadow: 2px 4px 6px black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+    
+}
+/* h4{
+    color: darkred;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+} */
+/* .btn{
+    background-color: green;
+    color: wheat;
+    padding: 0px;
+    border-radius: 10%;
+    margin-left: 100px;
+    cursor: pointer; */
+}
+
+footer{
+    
+    background-color: cadetblue;
+    height: 400px;
+    width: 100%;
+}
+h3{
+    color: honeydew;
+    text-align: center;
+    font-size: 50px;
+
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    color:honeydew;
+    text-align: center;
+}
+.banner{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlCHOkjBon3jfeelbRaBPmiwBBBTucuY2OOQ&s');
+    background-repeat: repeat-x;
+    height: 171px;
+    width: 100%;
+}
+/* .btn1{
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.btn2{
+    margin-left: 110px;
+
+
+}
+.btn3{
+    margin-left: 110px;
+
+
+}
+
+
+.btn4{
+    margin-left: 110px;
+    margin-top: 25px;
+
+}
+.btn5{
+    margin-left: 110px;
+
+
+}
+
+.btn6{
+    margin-left: 110px;
+    margin-top: 25px;
+
+}
+.btn7{
+    margin-left: 110px;
+    margin-top: 25px;
+
+}
+.btn8{
+    margin-left: 110px;
+
+
+} */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 100px;
+    margin-left: 0;
+    height: 60px;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding:  16px;
+    background-color: aliceblue;
+    height: 60px;
+  }
+  #btn{
+    margin-left:60px;
+    border-radius: 3px;
+  }
+  #foot{
+    background-color: cadetblue;
+    height: 128px;
+  }
+  body{
+    margin: 0px;
+  }
+  @media  screen and (max-width: 600px){
+    #foot{
+        background-color: yellow;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+    
+  
